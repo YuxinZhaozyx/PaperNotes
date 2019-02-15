@@ -1,0 +1,1 @@
+All notes are placed in this folder.
