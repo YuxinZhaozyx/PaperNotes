@@ -26,7 +26,7 @@ LRCN works by passing each visual input $x_t$ (input at time t, an image in isol
 
 
 
-![Three classes of sequential learning tasks](./image/Three classes of sequential learning tasks.png)
+![Three classes of sequential learning tasks](./image/Three%20classes%20of%20sequential%20learning%20tasks.png)
 
 The paper consider three vision problems (**activity recognition, image captioning and video description**), each of which instantiates one of the following broad classes of sequential learning tasks:
 
@@ -56,7 +56,7 @@ The authors train their LRCN models using stochastic gradient descent, with back
 
 # Activity Recognition
 
-![Activity Recognition](./image/Activity Recognition.png)
+![Activity Recognition](./image/Activity%20Recognition.png)
 
 The CNN base of LRCN in their activity recognition experiments is a hybrid of the *CaffeNet* reference model (a minor variant of *AlexNet*).
 
@@ -75,13 +75,13 @@ Because RGB and flow signals are complementary, **the best models take both into
 
 # Image Captioning
 
-![Image Captioning](./image/Image Captioning.png)
+![Image Captioning](./image/Image%20Captioning.png)
 
 At time step $t$, the input to bottom-most LSTM is **the embedded word from the previous time step $y_{t-1}$**, and **the output $y_t$ is encoded as a one-hot vector**: vector $y \in \mathbb R^K$ with a single non-zero component $y_i=1$ denoting the $i^{th}$ word in the vocabulary, plus two additional entries for the $\text{<BOS>}$(beginning of sequence) token and the $\text{<EOS>}$ (end of sequence) token. 
 
 
 
-![Image Captioning Variants](./image/Image Captioning variants.png)
+![Image Captioning Variants](./image/Image%20Captioning%20variants.png)
 
 The authors build three sequence model architectural variants. 
 
@@ -94,13 +94,13 @@ The unfactored variant ($\text{LRCN}_{2u}$)  performs worse than the other two($
 
 # Video Description
 
-![Video Description](./image/Video Description.png)
+![Video Description](./image/Video%20Description.png)
 
 The authors use CRF to predict activity, tool, object, and locations present in the video. The CRF is based on the full video input, so we observe the video as whole at each time step, not incrementally frame by frame.
 
 
 
-![Video Description Variants](./image/Video Description variants.png)
+![Video Description Variants](./image/Video%20Description%20variants.png)
 
 The author build three architectures for video description:
 
