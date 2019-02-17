@@ -66,6 +66,8 @@ The CNN base of LRCN in their activity recognition experiments is a hybrid of th
 
 The authors consider both RGB and flow as inputs to their recognition system. And they build **LRCN RGB model** and **LRCN flow model**.
 
+Flow is transformed into a "flow image" by shifting x and y flow values to range [-128, 128]. **A third channel for flow image is created by calcualting the flow mangnitude**.
+
 **Some classes the LRCN flow model outperforms the LRCN RGB model and vice versa.** Their explanation is that **activities which are better classified by the LRCN RGB model are best determined by which objects are present in the scene**, while **activities which are better classified by the LRCN flow model are best classified by the kind of motion in the scene**. 
 
 Because RGB and flow signals are complementary, **the best models take both into account**.
