@@ -62,7 +62,7 @@ The difference between 2D and 3D convolution operations is showed in Figure 1.
 
 All video frames are resized into 128 × 171, and then the authors use jittering by using **random crops** with a size of **3 × 16 × 112 × 112** of the input clips during training.
 
-![3D networks](./image/3D%20networks.png)
+![3D Networks](./image/3D%20Networks.png)
 
 The networks have 5 convolution layers and 5 pooling layers (each convolution layer is immediately followed by a pooling layer), 2 fully-connected layers and a softmax loss layer to predict action labels.
 
@@ -70,7 +70,7 @@ The networks have 5 convolution layers and 5 pooling layers (each convolution la
 
 **All pooling kernel size:**   2 × 2 × 2   (except for the Pool1 whose size is 1 × 2 × 2, not to merge the temporal signal too early)
 
-**train:** 
+**training:** 
 
 + from scratch
 + mini-batch of 30 clips
@@ -123,10 +123,10 @@ C3D net has 8 convolution, 5 max-pooling, and 2 fully connected layers, followed
 
 ## Dataset
 
-**Dataset: **   Sports-1M
+**Dataset:**   Sports-1M
 
-+ 1.1 million sport videos
-+ each video belongs to one of 487 sports categories
++ 1.1 million sport videos.
++ each video belongs to one of 487 sports categories.
 
 
 
@@ -136,7 +136,7 @@ C3D net has 8 convolution, 5 max-pooling, and 2 fully connected layers, followed
 
 + randomly extract five 2-second long clips from every training video.
 + Clips are resized to have a frame size of 128 × 171.
-+ On training, clips are randomly crop int0 16 × 112 × 112 crops for spatial and temporal jittering.
++ On training, clips are randomly crop into 16 × 112 × 112 crops for spatial and temporal jittering.
 + horizontally flip clips with 50% probability.
 
 
