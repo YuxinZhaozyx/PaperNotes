@@ -8,6 +8,8 @@ The [paper] is by Du Tran, Lubomir Bourdev, Rob Fergus, Lorenzo Torresani, Manoh
 
 **C3D source code and pre-trained model** are available at [here](http://vlg.cs.dartmouth.edu/c3d).
 
+Code are availabled at [here](https://people.eecs.berkeley.edu/~lisa_anne/LRCN_video)
+
 
 
 # Table of Contents
