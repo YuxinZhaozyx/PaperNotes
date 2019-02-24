@@ -6,6 +6,8 @@ The [paper] is by Jeff Donahue, Lisa Anne Hendricks, Marcus Rohrbach, Subhashini
 
 **Publication date :** 31 May 2016
 
+**Code and pre-trained model** are availabled at [here](https://people.eecs.berkeley.edu/~lisa_anne/LRCN_video).
+
 
 
 # Table of Contents
