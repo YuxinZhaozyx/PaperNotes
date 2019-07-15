@@ -2,7 +2,7 @@
 
 Notes of papers I have read.
 
-
+This repo won't be updated and my latest paper notes will be uploaded to [here](https://yuxinzhaozyx.github.io/#paper-notes).
 
 # Tables of Contents
 
